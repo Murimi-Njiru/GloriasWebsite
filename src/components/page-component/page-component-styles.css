@@ -1,0 +1,17 @@
+.HeaderContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.CurtainContainer{
+    height: fit-content;
+    
+}
+.TitleContainer {
+    padding-left: 5px;
+}
+.ContentContainer {
+    padding-left: 15px;
+    padding-right: 10px;
+}

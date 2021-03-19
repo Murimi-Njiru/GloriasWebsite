@@ -2,9 +2,8 @@ import { Pivot, PivotItem,} from "@fluentui/react";
 import React from "react";
 import { WebPage } from "../components/webPage/WebPage";
 import { HomePivot } from './HomePivot';
-import { AboutUsPivot } from './AboutUsPivot';
-import { MissionPivot } from './MissionPivot';
-import { VisionPivot } from './VisionPivot';
+import { HowItWorks } from "./HowItWorks";
+import { CreateAccountForm } from "../account/CreateAccountForm";
 
 export const Home = props => {
     
@@ -17,19 +16,14 @@ export const Home = props => {
                     <HomePivot />
                 </PivotItem>
                 <PivotItem
-                    headerText="About Us"
+                    headerText="How it works"
                 >
-                    <AboutUsPivot />
+                    <HowItWorks />
                 </PivotItem>
                 <PivotItem
-                    headerText="Mission"
+                    headerText="Register"
                 >
-                    <MissionPivot />
-                </PivotItem>
-                <PivotItem
-                    headerText="Vision"
-                >
-                    <VisionPivot />
+                    <CreateAccountForm />
                 </PivotItem>
             </Pivot>
         )

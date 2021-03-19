@@ -11,10 +11,11 @@ export const CreateAccountForm = props => {
     
     return (
         <form id="createAccountForm" style={styles.createAccountForm}>
+            <h2>Create an account.</h2>
             <TextField id="emailAddressTxtFld" label="Email Address" value={emailAddress} onChange={e=>setEmailAddress(e.target.value)}/>
             <TextField id="passwordTxtFld" label="Password" value={password} type="password" canRevealPassword onChange={e=>setPassword(e.target.value)}/>
             <TextField id="verifyPasswordTxtFld" label="Verify Password" type="password" canRevealPassword/>
-            <PrimaryButton id="submitBtn" text="Submit" style={styles.submitBtn} onClick={()=>{
+            <PrimaryButton id="submitBtn" text="Submit" href="#/registration" style={styles.submitBtn} onClick={()=>{
                 let details = {
                     emailAddress:emailAddress,
                     password:password

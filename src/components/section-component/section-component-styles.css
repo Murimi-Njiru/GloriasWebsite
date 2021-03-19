@@ -1,0 +1,22 @@
+h2 {
+    font-size: 30px;
+}
+p{
+    padding-left: 10px;
+    white-space: pre-line;
+}
+
+.SectionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.SectionActionsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
